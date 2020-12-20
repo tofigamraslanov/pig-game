@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  outline: none;
 }
 
 html {
@@ -112,6 +111,7 @@ main {
   font-size: 1.8rem;
   text-transform: uppercase;
   cursor: pointer;
+  outline: none;
   font-weight: 400;
   transition: all 0.2s;
 
