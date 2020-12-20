@@ -174,3 +174,10 @@ main {
 /* @media only screen and (max-width:62.5em){
 
 } */
+
+/* 760  / 16 =  */
+/* @media only screen and (max-width: 47.5em) {
+  main {
+    flex-direction: column;
+  }
+} */
