@@ -166,6 +166,10 @@ main {
   color: #c7365f;
 }
 
+.hidden {
+  display: none;
+}
+
 /* 1000px / 16 */
 /* @media only screen and (max-width:62.5em){
 
