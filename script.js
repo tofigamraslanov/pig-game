@@ -24,7 +24,7 @@ const init = function () {
   score0El.textContent = 0;
   score1El.textContent = 0;
   current0El.textContent = 0;
-  current0El.textContent = 0;
+  current1El.textContent = 0;
 
   diceEl.classList.add('hidden');
   player0El.classList.remove('player--winner');
@@ -73,7 +73,7 @@ btnHold.addEventListener('click', function () {
     document.getElementById(`score--${activePLayer}`).textContent =
       scores[activePLayer];
     // 2.Check if player's score is >= 100
-    if (scores[activePLayer] >= 20) {
+    if (scores[activePLayer] >= 100) {
       // Finish the game
       playing = false;
       diceEl.classList.add('hidden');
