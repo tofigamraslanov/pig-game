@@ -111,7 +111,6 @@ main {
   font-size: 1.8rem;
   text-transform: uppercase;
   cursor: pointer;
-  outline: none;
   font-weight: 400;
   transition: all 0.2s;
 
