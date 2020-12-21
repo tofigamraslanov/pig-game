@@ -171,13 +171,68 @@ main {
 }
 
 /* 1000px / 16 */
-/* @media only screen and (max-width:62.5em){
+@media only screen and (max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    background-color: white;
+  }
+  main {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+  }
+  .current {
+    border-radius: 5px;
+    width: 55%;
+    padding: 1rem 1.5rem;
+    margin-top: 0rem;
+  }
+  .current-label {
+    margin-bottom: -0.3rem;
+  }
+  .current-score {
+    font-size: 3rem;
+    margin-bottom: -1rem;
+  }
+}
 
-} */
+/* 600  / 16 =  */
 
-/* 760  / 16 =  */
-/* @media only screen and (max-width: 47.5em) {
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 43.75%;
+  }
   main {
     flex-direction: column;
   }
-} */
+  .current {
+    border-radius: 5px;
+    width: 20%;
+    padding: 0.8rem 1.2rem;
+    margin-top: 0rem;
+  }
+
+  .current-score {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    margin-top: 0.8rem;
+  }
+  .btn--new {
+    top: 4rem;
+  }
+  .name {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+  }
+  .btn--roll {
+    top: 56rem;
+  }
+  .btn--hold {
+    top: 64rem;
+  }
+  .dice {
+    margin-top: 11rem;
+  }
+}
