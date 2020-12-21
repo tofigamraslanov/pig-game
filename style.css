@@ -170,7 +170,7 @@ main {
   display: none;
 }
 
-/* 1000px / 16 */
+/*
 @media only screen and (max-width: 62.5em) {
   html {
     font-size: 50%;
@@ -198,35 +198,6 @@ main {
   }
 }
 
-/* 1000px / 16 */
-@media only screen and (max-width: 62.5em) {
-  html {
-    font-size: 50%;
-  }
-  body {
-    background-color: white;
-  }
-  main {
-    width: 100%;
-    height: 100vh;
-    border-radius: 0;
-  }
-  .current {
-    border-radius: 5px;
-    width: 55%;
-    padding: 1rem 1.5rem;
-    margin-top: 0rem;
-  }
-  .current-label {
-    margin-bottom: -0.3rem;
-  }
-  .current-score {
-    font-size: 3rem;
-    margin-bottom: -1rem;
-  }
-}
-
-/* 600  / 16 =  */
 @media only screen and (max-width: 37.5em) {
   html {
     font-size: 43.75%;
@@ -264,7 +235,6 @@ main {
   }
 }
 
-/* 420 / 16 = */
 @media only screen and (max-width: 26.25em) {
   .name {
     font-size: 3rem;
@@ -300,3 +270,4 @@ main {
     top: 47.7rem;
   }
 }
+*/
